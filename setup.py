@@ -381,7 +381,7 @@ setup(
     version="0.2.0",
     author="Wen Liu, and Zhixin Piao",
     author_email="liuwen@shanghaitech.edu.cn",
-    url="https://github.com/iPERDance/iPERCore",
+    url="https://github.com/JSssssss/iPERCore",
     description="The core of impersonator++.",
     packages=find_packages(exclude=("assets",)),
     python_requires=">=3.6, <=3.8",
