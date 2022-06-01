@@ -269,8 +269,8 @@ def platform_dependencies():
         mmcv_version = PRECOMPILED_TORCH_CUDA_PAIRS[torch_cuda_version]["mmcv-full"]
         mmcv_dist = PRECOMPILED_TORCH_CUDA_PAIRS[torch_cuda_version]["mmcv-dist"]
 
-        packages.append([f"torch=={torch_version}", "-f", TORCH_DIST])
-        packages.append([f"torchvision=={torchvision_version}", "-f", TORCH_DIST])
+        packages.append([f"torch==1.11.0+cu113", "-f", TORCH_DIST])
+        packages.append([f"torchvision==0.12.0+cu113", "-f", TORCH_DIST])
         packages.append([f"mmcv-full=={mmcv_version}", "-f", mmcv_dist])
         packages.append(numpy_version)
 
